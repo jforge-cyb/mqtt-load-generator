@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
 )
 
 // flagSpec names a flag's long name and, where it has one, its shorthand.

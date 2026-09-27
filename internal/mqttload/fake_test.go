@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
 )
 
 // fakeToken is a broker.Token whose result a test sets directly.

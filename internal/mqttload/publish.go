@@ -10,7 +10,7 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
 )
 
 // PublishOptions holds the settings for the publish loop: a plain copy of the relevant fields

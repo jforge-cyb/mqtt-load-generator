@@ -4,8 +4,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/display"
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/display"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // newDumpCommand creates the dump subcommand: print each received payload as text.

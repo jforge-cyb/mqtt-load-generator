@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // connectedClient is what a connected MQTT client can do. sub and dump only subscribe, but pub also

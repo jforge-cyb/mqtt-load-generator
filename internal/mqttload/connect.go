@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
 )
 
 // Publisher is what the publish loop needs from a connected MQTT client. *broker.Client

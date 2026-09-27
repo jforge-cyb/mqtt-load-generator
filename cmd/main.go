@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/cli"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/cli"
 )
 
 func main() {

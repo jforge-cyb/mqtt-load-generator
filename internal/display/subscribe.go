@@ -8,7 +8,7 @@ import (
 
 	"github.com/schollz/progressbar/v3"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // disableBarLogInterval is how often RunSubscribeLog re-reads progress and logs a line.

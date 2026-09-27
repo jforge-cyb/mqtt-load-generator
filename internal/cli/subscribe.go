@@ -6,8 +6,8 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/display"
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/display"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // newSubscribeCommand creates the sub subcommand: count received messages.

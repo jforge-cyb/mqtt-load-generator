@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // TestRunPublishProgress_LogsSummaryOnceDone checks that once a run finishes publishing,

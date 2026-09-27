@@ -13,7 +13,7 @@ import (
 
 	"github.com/schollz/progressbar/v3"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // progressBarUpdateInterval is how often the bars in this package re-read progress and redraw.

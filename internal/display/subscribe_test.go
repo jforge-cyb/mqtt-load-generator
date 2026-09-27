@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 func TestRunSubscribeLog_ReportsReceivedMessagesAndSummary(t *testing.T) {

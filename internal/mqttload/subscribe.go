@@ -10,7 +10,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/broker"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/broker"
 )
 
 // Subscriber is what the sub loop needs from a connected MQTT client. *broker.Client

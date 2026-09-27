@@ -3,7 +3,7 @@ package display
 import (
 	"sync"
 
-	"github.com/pablitovicente/mqtt-load-generator/internal/mqttload"
+	"github.com/pablitovicente/mqtt-load-generator/v2/internal/mqttload"
 )
 
 // fakePublishProgress is a publishProgressSource a test can drive directly: set a snapshot,

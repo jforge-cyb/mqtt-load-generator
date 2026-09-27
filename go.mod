@@ -1,4 +1,4 @@
-module github.com/pablitovicente/mqtt-load-generator
+module github.com/pablitovicente/mqtt-load-generator/v2
 
 go 1.27
 

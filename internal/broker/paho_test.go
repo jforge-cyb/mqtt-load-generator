@@ -19,13 +19,19 @@ func TestDial_PlainConnectionClosedRightAwayHintsAtTLS(t *testing.T) {
 	}
 	defer func() { _ = listener.Close() }()
 
-	// Accept each connection and close it without a word, like a TLS port seeing plain MQTT.
+	// Accept each connection, read the CONNECT packet and close without a word, like a TLS port
+	// seeing plain MQTT. Reading first matters: closing with unread data makes the kernel send a
+	// reset instead of a normal close, and paho then reports "connection reset" instead of EOF.
 	go func() {
 		for {
 			connection, err := listener.Accept()
 			if err != nil {
 				return
 			}
+
+			buffer := make([]byte, 1024)
+			_, _ = connection.Read(buffer)
+
 			_ = connection.Close()
 		}
 	}()
